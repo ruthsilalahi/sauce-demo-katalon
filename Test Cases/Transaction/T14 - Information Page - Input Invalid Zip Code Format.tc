@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify that user can fill the information form</description>
-   <name>T07 - Information Page - Fill Form - Continue</name>
+   <description>Verify that there will be an error message when user input invalid postal code</description>
+   <name>T14 - Information Page - Input Invalid Zip Code Format</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7bc9b9e2-a13d-4000-96ab-79bdd25ffb28</testCaseGuid>
+   <testCaseGuid>36896c6d-fb67-4f45-b822-b10ba6a31c7f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>faac612d-10d8-4d5e-a641-f5fa25883bfa</variableId>
+      <variableId>ff553590-5c0f-43d3-875d-7521fdd07d7f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>01922db5-6a70-4a33-9c72-0103fd13a1af</variableId>
+      <variableId>0a2059db-f32d-4d80-a13a-0a980b2cede7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a598dd37-7c3b-4911-bb4c-ad4c77d6fced</variableId>
+      <variableId>2f0000eb-26f3-423c-9d99-74dcbd42de03</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Ruth'</defaultValue>
       <description></description>
-      <id>faac612d-10d8-4d5e-a641-f5fa25883bfa</id>
+      <id>ff553590-5c0f-43d3-875d-7521fdd07d7f</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
       <defaultValue>'Silalahi'</defaultValue>
       <description></description>
-      <id>01922db5-6a70-4a33-9c72-0103fd13a1af</id>
+      <id>0a2059db-f32d-4d80-a13a-0a980b2cede7</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'ZIP123'</defaultValue>
+      <defaultValue>'63411'</defaultValue>
       <description></description>
-      <id>a598dd37-7c3b-4911-bb4c-ad4c77d6fced</id>
+      <id>2f0000eb-26f3-423c-9d99-74dcbd42de03</id>
       <masked>false</masked>
       <name>postal_code</name>
    </variable>

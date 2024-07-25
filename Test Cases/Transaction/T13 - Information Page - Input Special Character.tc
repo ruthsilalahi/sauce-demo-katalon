@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify that user can fill the information form</description>
-   <name>T07 - Information Page - Fill Form - Continue</name>
+   <description>Verify that there will be an error message when user input special character in form field</description>
+   <name>T13 - Information Page - Input Special Character</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7bc9b9e2-a13d-4000-96ab-79bdd25ffb28</testCaseGuid>
+   <testCaseGuid>84d79edd-8797-4cfb-b55e-8d9c8a2545e9</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>faac612d-10d8-4d5e-a641-f5fa25883bfa</variableId>
+      <variableId>8247a736-f811-4d07-9509-aa1ca53cc50f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>01922db5-6a70-4a33-9c72-0103fd13a1af</variableId>
+      <variableId>63d48267-880e-414b-b744-e58c3b4dd643</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a598dd37-7c3b-4911-bb4c-ad4c77d6fced</variableId>
+      <variableId>150aa1c2-1614-4790-8ac7-e6bb0927b09f</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Ruth'</defaultValue>
       <description></description>
-      <id>faac612d-10d8-4d5e-a641-f5fa25883bfa</id>
+      <id>8247a736-f811-4d07-9509-aa1ca53cc50f</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
       <defaultValue>'Silalahi'</defaultValue>
       <description></description>
-      <id>01922db5-6a70-4a33-9c72-0103fd13a1af</id>
+      <id>63d48267-880e-414b-b744-e58c3b4dd643</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'ZIP123'</defaultValue>
+      <defaultValue>'63411'</defaultValue>
       <description></description>
-      <id>a598dd37-7c3b-4911-bb4c-ad4c77d6fced</id>
+      <id>150aa1c2-1614-4790-8ac7-e6bb0927b09f</id>
       <masked>false</masked>
       <name>postal_code</name>
    </variable>

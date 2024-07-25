@@ -27,5 +27,7 @@ WebUI.setText(findTestObject('Transaction/Checkout - Information/input_Checkout 
 
 WebUI.takeScreenshot()
 
-WebUI.verifyAlertPresent(1, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Transaction/Checkout - Information/button_Continue'))
+
+WebUI.verifyElementVisible(findTestObject('Transaction/Checkout - Overview/span_Checkout Overview'))
 

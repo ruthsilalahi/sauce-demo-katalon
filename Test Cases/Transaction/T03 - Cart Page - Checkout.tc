@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify that user can open the shopping cart and than continue to checkout</description>
+   <description>Verify that user can open the shopping cart and then continue to checkout</description>
    <name>T03 - Cart Page - Checkout</name>
    <tag></tag>
    <comment></comment>
