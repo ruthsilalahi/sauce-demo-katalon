@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can pick product or add item to cart from detail product page</description>
+   <name>T01 - Pick Product From Detail Product Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>326d4727-d482-4166-bf4e-c6f90311613e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0905c20-29cb-47d5-a1db-9619989d8782</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92bd698e-45d5-48c1-a41c-0a190bbf7f38</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sauce Labs Bike Light'</defaultValue>
+      <description>text yang terdisplay</description>
+      <id>a0905c20-29cb-47d5-a1db-9619989d8782</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'sauce-labs-bike-light'</defaultValue>
+      <description>untuk mencari button add to cart dengan product yang bersangkutan</description>
+      <id>92bd698e-45d5-48c1-a41c-0a190bbf7f38</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+</TestCaseEntity>

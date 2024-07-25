@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Login,,,,2024-07-25 07:39:16,2024-07-25 07:39:17,0.326s,ERROR
+,,,,,,,
+Test Cases/Login/L01 - Login Success,,Verify that user can login with valid username and valid password,,2024-07-25 07:39:17,2024-07-25 07:39:17,0.022s,ERROR
+,,,,,,,
+Test Cases/Login/L02 - Login - Locked Out,,Verify that user can't login with locked out account,,2024-07-25 07:39:17,2024-07-25 07:39:17,0.005s,ERROR
+,,,,,,,
+Test Cases/Login/L03 - Login Failed - Invalid username,,Verify that user can't login with invalid username,,2024-07-25 07:39:17,2024-07-25 07:39:17,0.005s,ERROR
+,,,,,,,
+Test Cases/Login/L04 - Login Failed - Invalid password,,Verify that user can't login with invalid password,,2024-07-25 07:39:17,2024-07-25 07:39:17,0.000s,ERROR
+,,,,,,,
+Test Cases/Login/L05 - Login Failed - Username Null,,Verify that user can't login with username is null,,2024-07-25 07:39:17,2024-07-25 07:39:17,0.000s,ERROR
+,,,,,,,
+Test Cases/Login/L06 - Login Failed - Password Null,,Verify that user can't login with password is null,,2024-07-25 07:39:17,2024-07-25 07:39:17,0.013s,ERROR

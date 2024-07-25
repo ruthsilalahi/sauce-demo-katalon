@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Login/L01 - Login Success","testCaseId":"Test Cases/Login/L01 - Login Success","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/L02 - Login - Locked Out","testCaseId":"Test Cases/Login/L02 - Login - Locked Out","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/L03 - Login Failed - Invalid username","testCaseId":"Test Cases/Login/L03 - Login Failed - Invalid username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/L04 - Login Failed - Invalid password","testCaseId":"Test Cases/Login/L04 - Login Failed - Invalid password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/L05 - Login Failed - Username Null","testCaseId":"Test Cases/Login/L05 - Login Failed - Username Null","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/L06 - Login Failed - Password Null","testCaseId":"Test Cases/Login/L06 - Login Failed - Password Null","iterationVariableName":""}

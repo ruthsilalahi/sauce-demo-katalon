@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can't continue to the next page when postal code field is null</description>
+   <name>T10 - Information Page - Postal Code Null</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea2812b7-60e6-4498-b02b-7b5d462e5114</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>654fe52a-fcc2-4806-b612-8e05e2d9c91e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a31a5fd3-e34e-4231-9202-7cf6c234b3f2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e6950a2-1178-44c5-bc8f-25fb7fcf1208</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Ruth'</defaultValue>
+      <description></description>
+      <id>654fe52a-fcc2-4806-b612-8e05e2d9c91e</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Silalahi'</defaultValue>
+      <description></description>
+      <id>a31a5fd3-e34e-4231-9202-7cf6c234b3f2</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e6950a2-1178-44c5-bc8f-25fb7fcf1208</id>
+      <masked>false</masked>
+      <name>postal_code</name>
+   </variable>
+</TestCaseEntity>

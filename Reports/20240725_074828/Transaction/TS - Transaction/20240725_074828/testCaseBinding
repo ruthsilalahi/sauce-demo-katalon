@@ -1,0 +1,12 @@
+{"testCaseName":"Test Cases/Transaction/T01 - Pick Product From Detail Product Page","testCaseId":"Test Cases/Transaction/T01 - Pick Product From Detail Product Page","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T02 - Pick Product From Homepage","testCaseId":"Test Cases/Transaction/T02 - Pick Product From Homepage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T03 - Cart Page - Checkout","testCaseId":"Test Cases/Transaction/T03 - Cart Page - Checkout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T04 - Cart Page - Remove Item","testCaseId":"Test Cases/Transaction/T04 - Cart Page - Remove Item","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T05 - Cart Page - Continue Shopping","testCaseId":"Test Cases/Transaction/T05 - Cart Page - Continue Shopping","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T06 - Cart Page - Blank Cart Item","testCaseId":"Test Cases/Transaction/T06 - Cart Page - Blank Cart Item","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T07 - Information Page - Fill Form - Continue","testCaseId":"Test Cases/Transaction/T07 - Information Page - Fill Form - Continue","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T08 - Information Page - Full Name Null","testCaseId":"Test Cases/Transaction/T08 - Information Page - Full Name Null","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T09 - Information Page - Last Name Null","testCaseId":"Test Cases/Transaction/T09 - Information Page - Last Name Null","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T10 - Information Page - Postal Code Null","testCaseId":"Test Cases/Transaction/T10 - Information Page - Postal Code Null","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T11 - Information Page - Error X button","testCaseId":"Test Cases/Transaction/T11 - Information Page - Error X button","iterationVariableName":""}
+{"testCaseName":"Test Cases/Transaction/T12 - Overview Page - Finish","testCaseId":"Test Cases/Transaction/T12 - Overview Page - Finish","iterationVariableName":""}

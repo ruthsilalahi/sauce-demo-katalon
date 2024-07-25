@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can click the button Continue Shopping</description>
+   <name>T05 - Cart Page - Continue Shopping</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee6c1a0e-8de2-4b3e-9f19-7af6256b2e93</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58544cea-8e04-4df7-9c7f-c499d7712d84</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>34399e3c-8bc8-4c41-8e6a-773560887acf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sauce Labs Onesie'</defaultValue>
+      <description>text yang terdisplay</description>
+      <id>58544cea-8e04-4df7-9c7f-c499d7712d84</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'sauce-labs-onesie'</defaultValue>
+      <description>untuk mencari button add to cart dengan product yang bersangkutan</description>
+      <id>34399e3c-8bc8-4c41-8e6a-773560887acf</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+</TestCaseEntity>

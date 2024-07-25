@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can fill the information form</description>
+   <name>T07 - Information Page - Fill Form - Continue</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7bc9b9e2-a13d-4000-96ab-79bdd25ffb28</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>faac612d-10d8-4d5e-a641-f5fa25883bfa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01922db5-6a70-4a33-9c72-0103fd13a1af</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a598dd37-7c3b-4911-bb4c-ad4c77d6fced</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Ruth'</defaultValue>
+      <description></description>
+      <id>faac612d-10d8-4d5e-a641-f5fa25883bfa</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Silalahi'</defaultValue>
+      <description></description>
+      <id>01922db5-6a70-4a33-9c72-0103fd13a1af</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'63411'</defaultValue>
+      <description></description>
+      <id>a598dd37-7c3b-4911-bb4c-ad4c77d6fced</id>
+      <masked>false</masked>
+      <name>postal_code</name>
+   </variable>
+</TestCaseEntity>

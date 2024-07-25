@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Login" time="0.326" tests="6" failures="0" errors="6">
+   <testsuite name="TS - Login" tests="6" failures="0" errors="6" time="0.326" skipped="0" timestamp="2024-07-25 07:39:16" hostname="rutheeaaa - LAPTOP-I306I5S3" id="Test Suites/Login/TS - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\git\\sauce-demo-katalon\\Reports\\20240725_073914\\Login\\TS - Login\\20240725_073914"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\git\\sauce-demo-katalon\\Reports\\20240725_073914\\Login\\TS - Login\\20240725_073914\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rutheeaaa - LAPTOP-I306I5S3"/>
+         <property name="hostAddress" value="192.168.31.97"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+      </properties>
+      <testcase name="Test Cases/Login/L01 - Login Success" time="0.022" classname="Test Cases/Login/L01 - Login Success" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/L01 - Login Success has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L01 - Login Success: Test Cases/Login/L01 - Login Success has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L01 - Login Success: Test Cases/Login/L01 - Login Success has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L02 - Login - Locked Out" time="0.005" classname="Test Cases/Login/L02 - Login - Locked Out" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/L02 - Login - Locked Out has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L02 - Login - Locked Out: Test Cases/Login/L02 - Login - Locked Out has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L02 - Login - Locked Out: Test Cases/Login/L02 - Login - Locked Out has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L03 - Login Failed - Invalid username" time="0.005" classname="Test Cases/Login/L03 - Login Failed - Invalid username" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/L03 - Login Failed - Invalid username has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L03 - Login Failed - Invalid username: Test Cases/Login/L03 - Login Failed - Invalid username has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L03 - Login Failed - Invalid username: Test Cases/Login/L03 - Login Failed - Invalid username has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L04 - Login Failed - Invalid password" time="0.0" classname="Test Cases/Login/L04 - Login Failed - Invalid password" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/L04 - Login Failed - Invalid password has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L04 - Login Failed - Invalid password: Test Cases/Login/L04 - Login Failed - Invalid password has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L04 - Login Failed - Invalid password: Test Cases/Login/L04 - Login Failed - Invalid password has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L05 - Login Failed - Username Null" time="0.0" classname="Test Cases/Login/L05 - Login Failed - Username Null" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/L05 - Login Failed - Username Null has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L05 - Login Failed - Username Null: Test Cases/Login/L05 - Login Failed - Username Null has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L05 - Login Failed - Username Null: Test Cases/Login/L05 - Login Failed - Username Null has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/L06 - Login Failed - Password Null" time="0.013" classname="Test Cases/Login/L06 - Login Failed - Password Null" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/L06 - Login Failed - Password Null has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L06 - Login Failed - Password Null: Test Cases/Login/L06 - Login Failed - Password Null has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2024-07-25 07:39:17 - [TEST_CASE][ERROR] - Test Cases/Login/L06 - Login Failed - Password Null: Test Cases/Login/L06 - Login Failed - Password Null has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-07-25 07:39:16 - [TEST_SUITE][ERROR] - TS - Login: Test Cases/Login/L01 - Login Success has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[2024-07-25 07:39:16 - [TEST_SUITE][ERROR] - TS - Login: Test Cases/Login/L01 - Login Success has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>

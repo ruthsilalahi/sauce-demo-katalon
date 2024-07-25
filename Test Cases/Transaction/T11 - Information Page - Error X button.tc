@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can click x button</description>
+   <name>T11 - Information Page - Error X button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb48c96e-c7fd-4ec9-b7d8-ac12ea743f94</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e2fc53e-a7c5-40a2-afff-968763d1dee0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb61c1e5-7918-430a-b574-28a864b83865</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f61ac05f-3ee4-4ec8-a2ca-af05aa42c399</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Ruth'</defaultValue>
+      <description></description>
+      <id>6e2fc53e-a7c5-40a2-afff-968763d1dee0</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Silalahi'</defaultValue>
+      <description></description>
+      <id>cb61c1e5-7918-430a-b574-28a864b83865</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f61ac05f-3ee4-4ec8-a2ca-af05aa42c399</id>
+      <masked>false</masked>
+      <name>postal_code</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can't continue to the next page when last name field is null</description>
+   <name>T09 - Information Page - Last Name Null</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbb71fec-4e10-4ca7-ba11-9ef83df7d86c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c31bf677-c190-4e5e-87c9-66eff040b4b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c9fcd57-10c3-4b67-975f-47320b239497</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75b83653-034c-42ad-800d-0c07a0a7b4ff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Ruth'</defaultValue>
+      <description></description>
+      <id>c31bf677-c190-4e5e-87c9-66eff040b4b4</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c9fcd57-10c3-4b67-975f-47320b239497</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'63411'</defaultValue>
+      <description></description>
+      <id>75b83653-034c-42ad-800d-0c07a0a7b4ff</id>
+      <masked>false</masked>
+      <name>postal_code</name>
+   </variable>
+</TestCaseEntity>

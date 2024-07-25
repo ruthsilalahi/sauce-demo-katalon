@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Login,Chrome 126.0.0.0,,,2024-07-25 07:42:09,2024-07-25 07:44:31,2m - 22.003s,PASSED
+,,,,,,,
+Test Cases/Login/L01 - Login Success,Chrome 126.0.0.0,Verify that user can login with valid username and valid password,,2024-07-25 07:42:09,2024-07-25 07:42:18,8.692s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,2024-07-25 07:42:09,2024-07-25 07:42:12,2.281s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,2024-07-25 07:42:12,2024-07-25 07:42:12,0.507s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,2024-07-25 07:42:12,2024-07-25 07:42:12,0.064s,PASSED
+"setText(findTestObject(""Object Repository/Login-Page/input_username""), username)",Chrome 126.0.0.0,,,2024-07-25 07:42:12,2024-07-25 07:42:15,2.601s,PASSED
+"setText(findTestObject(""Object Repository/Login-Page/input_password""), password)",Chrome 126.0.0.0,,,2024-07-25 07:42:15,2024-07-25 07:42:16,0.791s,PASSED
+"click(findTestObject(""Object Repository/Login-Page/login-button""))",Chrome 126.0.0.0,,,2024-07-25 07:42:16,2024-07-25 07:42:16,0.532s,PASSED
+"verifyElementVisible(findTestObject(""Login-Page/header_logo""))",Chrome 126.0.0.0,,,2024-07-25 07:42:16,2024-07-25 07:42:17,0.435s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:42:17,2024-07-25 07:42:18,1.051s,PASSED
+,,,,,,,
+Test Cases/Login/L02 - Login - Locked Out,Chrome 126.0.0.0,Verify that user can't login with locked out account,,2024-07-25 07:42:18,2024-07-25 07:42:56,37.792s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,2024-07-25 07:42:18,2024-07-25 07:42:20,1.988s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,2024-07-25 07:42:20,2024-07-25 07:42:20,0.409s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,2024-07-25 07:42:20,2024-07-25 07:42:20,0.057s,PASSED
+"setText(findTestObject(""Object Repository/Login-Page/input_username""), username)",Chrome 126.0.0.0,,,2024-07-25 07:42:20,2024-07-25 07:42:23,3.009s,PASSED
+"setText(findTestObject(""Object Repository/Login-Page/input_password""), password)",Chrome 126.0.0.0,,,2024-07-25 07:42:23,2024-07-25 07:42:24,0.790s,PASSED
+"click(findTestObject(""Object Repository/Login-Page/login-button""))",Chrome 126.0.0.0,,,2024-07-25 07:42:24,2024-07-25 07:42:25,0.477s,PASSED
+"verifyElementVisible(findTestObject(""Login-Page/error-message_ this user has been locked out""))",Chrome 126.0.0.0,,,2024-07-25 07:42:25,2024-07-25 07:42:55,30.173s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:42:55,2024-07-25 07:42:56,0.584s,PASSED
+,,,,,,,
+Test Cases/Login/L03 - Login Failed - Invalid username,Chrome 126.0.0.0,Verify that user can't login with invalid username,,2024-07-25 07:42:56,2024-07-25 07:43:33,37.064s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,2024-07-25 07:42:56,2024-07-25 07:42:58,1.907s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,2024-07-25 07:42:58,2024-07-25 07:42:58,0.390s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,2024-07-25 07:42:58,2024-07-25 07:42:58,0.060s,PASSED
+"setText(findTestObject(""Object Repository/Login-Page/input_username""), username)",Chrome 126.0.0.0,,,2024-07-25 07:42:58,2024-07-25 07:43:01,2.387s,PASSED
+"setText(findTestObject(""Object Repository/Login-Page/input_password""), password)",Chrome 126.0.0.0,,,2024-07-25 07:43:01,2024-07-25 07:43:01,0.791s,PASSED
+"click(findTestObject(""Object Repository/Login-Page/login-button""))",Chrome 126.0.0.0,,,2024-07-25 07:43:01,2024-07-25 07:43:02,0.414s,PASSED
+"verifyElementVisible(findTestObject(""Login-Page/error-message_Username and password do not match any user in this service""))",Chrome 126.0.0.0,user can't login,,2024-07-25 07:43:02,2024-07-25 07:43:32,30.164s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:43:32,2024-07-25 07:43:33,0.677s,PASSED
+,,,,,,,
+Test Cases/Login/L04 - Login Failed - Invalid password,Chrome 126.0.0.0,Verify that user can't login with invalid password,,2024-07-25 07:43:33,2024-07-25 07:44:11,38.181s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,2024-07-25 07:43:33,2024-07-25 07:43:35,1.926s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,2024-07-25 07:43:35,2024-07-25 07:43:36,0.139s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,2024-07-25 07:43:36,2024-07-25 07:43:36,0.357s,PASSED
+"setText(findTestObject(""Object Repository/Login-Page/input_username""), username)",Chrome 126.0.0.0,,,2024-07-25 07:43:36,2024-07-25 07:43:39,2.732s,PASSED
+"setText(findTestObject(""Object Repository/Login-Page/input_password""), password)",Chrome 126.0.0.0,,,2024-07-25 07:43:39,2024-07-25 07:43:40,0.870s,PASSED
+"click(findTestObject(""Object Repository/Login-Page/login-button""))",Chrome 126.0.0.0,,,2024-07-25 07:43:40,2024-07-25 07:43:40,0.465s,PASSED
+"verifyElementVisible(findTestObject(""Login-Page/error-message_Username and password do not match any user in this service""))",Chrome 126.0.0.0,user can't login,,2024-07-25 07:43:40,2024-07-25 07:44:10,30.128s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:44:10,2024-07-25 07:44:11,0.678s,PASSED
+,,,,,,,
+Test Cases/Login/L05 - Login Failed - Username Null,Chrome 126.0.0.0,Verify that user can't login with username is null,,2024-07-25 07:44:11,2024-07-25 07:44:18,7.189s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,2024-07-25 07:44:11,2024-07-25 07:44:13,1.944s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,2024-07-25 07:44:13,2024-07-25 07:44:14,0.476s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,2024-07-25 07:44:14,2024-07-25 07:44:14,0.051s,PASSED
+"setText(findTestObject(""Login-Page/input_password""), password)",Chrome 126.0.0.0,,,2024-07-25 07:44:14,2024-07-25 07:44:17,2.717s,PASSED
+"click(findTestObject(""Object Repository/Login-Page/login-button""))",Chrome 126.0.0.0,,,2024-07-25 07:44:17,2024-07-25 07:44:17,0.441s,PASSED
+"verifyElementVisible(findTestObject(""Login-Page/error-message_Epic sadface Username is required""))",Chrome 126.0.0.0,,,2024-07-25 07:44:17,2024-07-25 07:44:18,0.486s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:44:18,2024-07-25 07:44:18,0.472s,PASSED
+,,,,,,,
+Test Cases/Login/L06 - Login Failed - Password Null,Chrome 126.0.0.0,Verify that user can't login with password is null,,2024-07-25 07:44:18,2024-07-25 07:44:31,12.798s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,2024-07-25 07:44:18,2024-07-25 07:44:20,1.935s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 126.0.0.0,,,2024-07-25 07:44:20,2024-07-25 07:44:27,6.562s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,2024-07-25 07:44:27,2024-07-25 07:44:27,0.068s,PASSED
+"setText(findTestObject(""Login-Page/input_username""), username)",Chrome 126.0.0.0,,,2024-07-25 07:44:27,2024-07-25 07:44:29,2.514s,PASSED
+"click(findTestObject(""Object Repository/Login-Page/login-button""))",Chrome 126.0.0.0,,,2024-07-25 07:44:29,2024-07-25 07:44:30,0.469s,PASSED
+"verifyElementVisible(findTestObject(""Login-Page/error-message_Epic sadface Password is required""))",Chrome 126.0.0.0,,,2024-07-25 07:44:30,2024-07-25 07:44:30,0.465s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:44:30,2024-07-25 07:44:31,0.528s,PASSED

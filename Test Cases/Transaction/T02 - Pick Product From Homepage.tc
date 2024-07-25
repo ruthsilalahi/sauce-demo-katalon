@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can pick product or add item to cart from home page</description>
+   <name>T02 - Pick Product From Homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7a3d648-4081-47d2-a08b-eca504a7acdd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a13cfabe-bd5a-458e-aa83-5b79d42571f1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>72aa085e-023a-4183-8864-422de15a23c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1fa082ac-307e-4500-a187-3c0cd71e061f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sauce Labs Bike Light'</defaultValue>
+      <description>text yang terdisplay</description>
+      <id>a13cfabe-bd5a-458e-aa83-5b79d42571f1</id>
+      <masked>false</masked>
+      <name>product_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'sauce-labs-bike-light'</defaultValue>
+      <description>untuk mencari button add to cart dengan product yang bersangkutan</description>
+      <id>72aa085e-023a-4183-8864-422de15a23c6</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>1fa082ac-307e-4500-a187-3c0cd71e061f</id>
+      <masked>false</masked>
+      <name>detail_product_page</name>
+   </variable>
+</TestCaseEntity>

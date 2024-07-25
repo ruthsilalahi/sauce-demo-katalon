@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can't continue to checkout when the item in cart is null</description>
+   <name>T06 - Cart Page - Blank Cart Item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57c97239-5aa1-4747-b249-9bf27266d9f7</testCaseGuid>
+</TestCaseEntity>

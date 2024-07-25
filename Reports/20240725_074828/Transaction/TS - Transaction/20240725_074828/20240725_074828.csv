@@ -1,0 +1,107 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Transaction,Chrome 126.0.0.0,,,2024-07-25 07:48:30,2024-07-25 07:52:06,3m - 36.263s,FAILED
+,,,,,,,
+Test Cases/Transaction/T01 - Pick Product From Detail Product Page,Chrome 126.0.0.0,Verify that user can pick product or add item to cart from detail product page,,2024-07-25 07:48:30,2024-07-25 07:48:43,13.215s,PASSED
+"callTestCase(findTestCase(""Login/L01 - Login Success""), [""username"":""standard_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:48:30,2024-07-25 07:48:39,9.114s,PASSED
+"click(findTestObject(""Transaction/Inventory-page/product_name"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,2024-07-25 07:48:39,2024-07-25 07:48:40,0.644s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Inventory-item-page/label_product_name_detail_page""))",Chrome 126.0.0.0,,,2024-07-25 07:48:40,2024-07-25 07:48:41,0.541s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Inventory-item-page/button_Add to cart - item page""))",Chrome 126.0.0.0,,,2024-07-25 07:48:41,2024-07-25 07:48:41,0.452s,PASSED
+"click(findTestObject(""Transaction/Inventory-item-page/button_Add to cart - item page""))",Chrome 126.0.0.0,,,2024-07-25 07:48:41,2024-07-25 07:48:42,0.472s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/General/label_shopping_cart_badge""))",Chrome 126.0.0.0,,,2024-07-25 07:48:42,2024-07-25 07:48:42,0.563s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:48:42,2024-07-25 07:48:43,1.032s,PASSED
+,,,,,,,
+Test Cases/Transaction/T02 - Pick Product From Homepage,Chrome 126.0.0.0,Verify that user can pick product or add item to cart from home page,,2024-07-25 07:48:43,2024-07-25 07:48:54,10.944s,PASSED
+"callTestCase(findTestCase(""Login/L01 - Login Success""), [""username"":""standard_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:48:44,2024-07-25 07:48:52,7.650s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Inventory-page/product_name"", [""product_name"":product_name]))",Chrome 126.0.0.0,,,2024-07-25 07:48:52,2024-07-25 07:48:52,0.401s,PASSED
+"click(findTestObject(""Transaction/Inventory-page/button_Add to cart"", [""product_id"":product_id]))",Chrome 126.0.0.0,product id untuk mencari button add to cart yang bersangkutan dengan product yang ingin dipilih,,2024-07-25 07:48:52,2024-07-25 07:48:53,0.407s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/General/label_shopping_cart_badge""))",Chrome 126.0.0.0,,,2024-07-25 07:48:53,2024-07-25 07:48:53,0.472s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:48:53,2024-07-25 07:48:54,0.881s,PASSED
+,,,,,,,
+Test Cases/Transaction/T03 - Cart Page - Checkout,Chrome 126.0.0.0,Verify that user can open the shopping cart and than continue to checkout,,2024-07-25 07:48:54,2024-07-25 07:49:14,19.526s,PASSED
+"callTestCase(findTestCase(""Transaction/T02 - Pick Product From Homepage""), [""product_name"":""Sauce Labs Bike Light"", ""product_id"":""sauce-labs-bike-light"", ""detail_product_page"":""0""], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:48:54,2024-07-25 07:49:08,13.542s,PASSED
+"click(findTestObject(""Transaction/General/icon_shopping_cart""))",Chrome 126.0.0.0,,,2024-07-25 07:49:08,2024-07-25 07:49:10,2.127s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Cart/span_title - Your Cart""))",Chrome 126.0.0.0,,,2024-07-25 07:49:10,2024-07-25 07:49:11,0.598s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Cart/container_cart item""))",Chrome 126.0.0.0,,,2024-07-25 07:49:11,2024-07-25 07:49:11,0.432s,PASSED
+takeFullPageScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:49:11,2024-07-25 07:49:12,0.717s,PASSED
+"click(findTestObject(""Transaction/Cart/button_Checkout""))",Chrome 126.0.0.0,,,2024-07-25 07:49:12,2024-07-25 07:49:13,1.243s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Information/span_title - Checkout Your Information""))",Chrome 126.0.0.0,,,2024-07-25 07:49:13,2024-07-25 07:49:14,0.538s,PASSED
+,,,,,,,
+Test Cases/Transaction/T04 - Cart Page - Remove Item,Chrome 126.0.0.0,Verify that user can remove item from cart,,2024-07-25 07:49:14,2024-07-25 07:49:31,17.592s,PASSED
+"callTestCase(findTestCase(""Transaction/T02 - Pick Product From Homepage""), [""product_name"":""Sauce Labs Bike Light"", ""product_id"":""sauce-labs-bike-light"", ""detail_product_page"":""0""], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:49:14,2024-07-25 07:49:26,11.301s,PASSED
+"click(findTestObject(""Transaction/General/icon_shopping_cart""))",Chrome 126.0.0.0,,,2024-07-25 07:49:26,2024-07-25 07:49:26,0.471s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Cart/span_title - Your Cart""))",Chrome 126.0.0.0,,,2024-07-25 07:49:26,2024-07-25 07:49:27,0.505s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Cart/container_cart item""))",Chrome 126.0.0.0,,,2024-07-25 07:49:27,2024-07-25 07:49:27,0.385s,PASSED
+takeScreenshot(STOP_ON_FAILURE),Chrome 126.0.0.0,,,2024-07-25 07:49:27,2024-07-25 07:49:27,0.463s,PASSED
+"click(findTestObject(""Transaction/Cart/button_Remove"", [""product_id"":product_id]))",Chrome 126.0.0.0,,,2024-07-25 07:49:27,2024-07-25 07:49:28,0.464s,PASSED
+"verifyElementNotPresent(findTestObject(""Transaction/Cart/label_item_name"", [""product_name"":product_name]), 1)",Chrome 126.0.0.0,,,2024-07-25 07:49:28,2024-07-25 07:49:31,2.965s,PASSED
+takeScreenshot(STOP_ON_FAILURE),Chrome 126.0.0.0,,,2024-07-25 07:49:31,2024-07-25 07:49:31,0.422s,PASSED
+,,,,,,,
+Test Cases/Transaction/T05 - Cart Page - Continue Shopping,Chrome 126.0.0.0,Verify that user can click the button Continue Shopping,,2024-07-25 07:49:31,2024-07-25 07:49:43,12.177s,PASSED
+"callTestCase(findTestCase(""Transaction/T02 - Pick Product From Homepage""), [""product_name"":""Sauce Labs Bike Light"", ""product_id"":""sauce-labs-bike-light"", ""detail_product_page"":""0""], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:49:32,2024-07-25 07:49:42,10.223s,PASSED
+"click(findTestObject(""Transaction/General/icon_shopping_cart""))",Chrome 126.0.0.0,,,2024-07-25 07:49:42,2024-07-25 07:49:42,0.386s,PASSED
+"click(findTestObject(""Transaction/Cart/button_Continue Shopping""))",Chrome 126.0.0.0,,,2024-07-25 07:49:42,2024-07-25 07:49:43,0.514s,PASSED
+"verifyElementVisible(findTestObject(""Login-Page/header_logo""))",Chrome 126.0.0.0,,,2024-07-25 07:49:43,2024-07-25 07:49:43,0.500s,PASSED
+,,,,,,,
+Test Cases/Transaction/T06 - Cart Page - Blank Cart Item,Chrome 126.0.0.0,Verify that user can't continue to checkout when the item in cart is null,,2024-07-25 07:49:43,2024-07-25 07:50:00,16.893s,FAILED
+"callTestCase(findTestCase(""Transaction/T04 - Cart Page - Remove Item""), [""product_name"":""Sauce Labs Bike Light"", ""product_id"":""sauce-labs-bike-light""], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:49:44,2024-07-25 07:49:57,13.706s,PASSED
+"verifyElementNotClickable(findTestObject(""Transaction/Cart/button_Checkout""))",Chrome 126.0.0.0,"Expectation : the checkout button should be disabled or not clickable because there's no item in the cart. 
+That's why the result is Failed",,2024-07-25 07:49:57,2024-07-25 07:50:00,2.934s,FAILED
+,,,,,,,
+Test Cases/Transaction/T07 - Information Page - Fill Form - Continue,Chrome 126.0.0.0,Verify that user can fill the information form,,2024-07-25 07:50:00,2024-07-25 07:50:20,19.657s,PASSED
+"callTestCase(findTestCase(""Transaction/T03 - Cart Page - Checkout""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:50:01,2024-07-25 07:50:14,12.843s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_firstName""), first_name)",Chrome 126.0.0.0,,,2024-07-25 07:50:14,2024-07-25 07:50:15,0.794s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_lastName""), last_name)",Chrome 126.0.0.0,,,2024-07-25 07:50:15,2024-07-25 07:50:17,2.863s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_postalCode""), postal_code)",Chrome 126.0.0.0,,,2024-07-25 07:50:17,2024-07-25 07:50:18,0.947s,PASSED
+takeScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:50:18,2024-07-25 07:50:19,0.601s,PASSED
+"click(findTestObject(""Transaction/Checkout - Information/button_Continue""))",Chrome 126.0.0.0,,,2024-07-25 07:50:19,2024-07-25 07:50:19,0.478s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Overview/span_Checkout Overview""))",Chrome 126.0.0.0,,,2024-07-25 07:50:19,2024-07-25 07:50:20,0.514s,PASSED
+,,,,,,,
+Test Cases/Transaction/T08 - Information Page - Full Name Null,Chrome 126.0.0.0,Verify that user can't continue to the next page when full name field is null,,2024-07-25 07:50:20,2024-07-25 07:50:40,19.762s,PASSED
+"callTestCase(findTestCase(""Transaction/T03 - Cart Page - Checkout""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:50:21,2024-07-25 07:50:33,12.893s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Information/span_title - Checkout Your Information""))",Chrome 126.0.0.0,,,2024-07-25 07:50:33,2024-07-25 07:50:34,0.393s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_firstName""), first_name)",Chrome 126.0.0.0,,,2024-07-25 07:50:34,2024-07-25 07:50:35,0.762s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_lastName""), last_name)",Chrome 126.0.0.0,,,2024-07-25 07:50:35,2024-07-25 07:50:37,2.758s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_postalCode""), postal_code)",Chrome 126.0.0.0,,,2024-07-25 07:50:37,2024-07-25 07:50:38,0.881s,PASSED
+"click(findTestObject(""Transaction/Checkout - Information/button_Continue""))",Chrome 126.0.0.0,,,2024-07-25 07:50:38,2024-07-25 07:50:39,0.576s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Information/error-message_Error First Name is required""))",Chrome 126.0.0.0,,,2024-07-25 07:50:39,2024-07-25 07:50:39,0.511s,PASSED
+takeScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:50:39,2024-07-25 07:50:40,0.385s,PASSED
+,,,,,,,
+Test Cases/Transaction/T09 - Information Page - Last Name Null,Chrome 126.0.0.0,Verify that user can't continue to the next page when last name field is null,,2024-07-25 07:50:40,2024-07-25 07:51:00,19.860s,PASSED
+"callTestCase(findTestCase(""Transaction/T03 - Cart Page - Checkout""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:50:40,2024-07-25 07:50:53,13.161s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Information/span_title - Checkout Your Information""))",Chrome 126.0.0.0,,,2024-07-25 07:50:53,2024-07-25 07:50:54,0.352s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_firstName""), first_name)",Chrome 126.0.0.0,,,2024-07-25 07:50:54,2024-07-25 07:50:55,0.722s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_lastName""), last_name)",Chrome 126.0.0.0,,,2024-07-25 07:50:55,2024-07-25 07:50:57,2.671s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_postalCode""), postal_code)",Chrome 126.0.0.0,,,2024-07-25 07:50:57,2024-07-25 07:50:58,0.798s,PASSED
+"click(findTestObject(""Transaction/Checkout - Information/button_Continue""))",Chrome 126.0.0.0,,,2024-07-25 07:50:58,2024-07-25 07:50:59,0.636s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Information/error-message_Error Last Name is required""))",Chrome 126.0.0.0,,,2024-07-25 07:50:59,2024-07-25 07:50:59,0.499s,PASSED
+takeScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:50:59,2024-07-25 07:51:00,0.446s,PASSED
+,,,,,,,
+Test Cases/Transaction/T10 - Information Page - Postal Code Null,Chrome 126.0.0.0,Verify that user can't continue to the next page when postal code field is null,,2024-07-25 07:51:00,2024-07-25 07:51:20,20.692s,PASSED
+"callTestCase(findTestCase(""Transaction/T03 - Cart Page - Checkout""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:51:00,2024-07-25 07:51:16,16.078s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Information/span_title - Checkout Your Information""))",Chrome 126.0.0.0,,,2024-07-25 07:51:16,2024-07-25 07:51:16,0.395s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_firstName""), first_name)",Chrome 126.0.0.0,,,2024-07-25 07:51:16,2024-07-25 07:51:17,0.783s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_lastName""), last_name)",Chrome 126.0.0.0,,,2024-07-25 07:51:17,2024-07-25 07:51:18,0.908s,PASSED
+"setText(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_postalCode""), postal_code)",Chrome 126.0.0.0,,,2024-07-25 07:51:18,2024-07-25 07:51:19,0.904s,PASSED
+"click(findTestObject(""Transaction/Checkout - Information/button_Continue""))",Chrome 126.0.0.0,,,2024-07-25 07:51:19,2024-07-25 07:51:19,0.441s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Information/error-message_Error Postal Code is required""))",Chrome 126.0.0.0,,,2024-07-25 07:51:19,2024-07-25 07:51:20,0.508s,PASSED
+takeScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:51:20,2024-07-25 07:51:20,0.398s,PASSED
+,,,,,,,
+Test Cases/Transaction/T11 - Information Page - Error X button,Chrome 126.0.0.0,Verify that user can click x button,,2024-07-25 07:51:20,2024-07-25 07:51:42,21.284s,PASSED
+"callTestCase(findTestCase(""Transaction/T03 - Cart Page - Checkout""), [:], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:51:21,2024-07-25 07:51:39,17.961s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Information/span_title - Checkout Your Information""))",Chrome 126.0.0.0,,,2024-07-25 07:51:39,2024-07-25 07:51:39,0.428s,PASSED
+"click(findTestObject(""Transaction/Checkout - Information/button_Continue""))",Chrome 126.0.0.0,,,2024-07-25 07:51:39,2024-07-25 07:51:40,0.447s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Information/input_Checkout Your Information_firstName""))",Chrome 126.0.0.0,,,2024-07-25 07:51:40,2024-07-25 07:51:40,0.542s,PASSED
+takeScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:51:40,2024-07-25 07:51:41,0.356s,PASSED
+"click(findTestObject(""Transaction/Checkout - Information/icon_x_button_error""))",Chrome 126.0.0.0,,,2024-07-25 07:51:41,2024-07-25 07:51:41,0.433s,PASSED
+takeScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:51:41,2024-07-25 07:51:42,0.500s,PASSED
+,,,,,,,
+Test Cases/Transaction/T12 - Overview Page - Finish,Chrome 126.0.0.0,Verify that user can complete the transaction,,2024-07-25 07:51:42,2024-07-25 07:52:06,24.383s,PASSED
+"callTestCase(findTestCase(""Transaction/T07 - Information Page - Fill Form - Continue""), [""first_name"":""Ruth"", ""last_name"":""Silalahi"", ""postal_code"":""63411""], STOP_ON_FAILURE)",Chrome 126.0.0.0,,,2024-07-25 07:51:42,2024-07-25 07:52:03,20.374s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Overview/Page_Swag Labs/item_container""))",Chrome 126.0.0.0,,,2024-07-25 07:52:03,2024-07-25 07:52:03,0.428s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Overview/label_Price Total""))",Chrome 126.0.0.0,,,2024-07-25 07:52:03,2024-07-25 07:52:03,0.399s,PASSED
+takeScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:52:03,2024-07-25 07:52:04,0.389s,PASSED
+"click(findTestObject(""Transaction/Checkout - Complete/button_Finish""))",Chrome 126.0.0.0,,,2024-07-25 07:52:04,2024-07-25 07:52:04,0.460s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Complete/span_Checkout Complete""))",Chrome 126.0.0.0,,,2024-07-25 07:52:04,2024-07-25 07:52:05,0.522s,PASSED
+"verifyElementVisible(findTestObject(""Transaction/Checkout - Complete/h2_Thank you for your order""))",Chrome 126.0.0.0,,,2024-07-25 07:52:05,2024-07-25 07:52:05,0.420s,PASSED
+takeScreenshot(),Chrome 126.0.0.0,,,2024-07-25 07:52:05,2024-07-25 07:52:06,0.391s,PASSED
+"click(findTestObject(""Transaction/Checkout - Complete/button_Back Home""))",Chrome 126.0.0.0,,,2024-07-25 07:52:06,2024-07-25 07:52:06,0.448s,PASSED

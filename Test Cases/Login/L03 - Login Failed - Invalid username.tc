@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can't login with invalid username</description>
+   <name>L03 - Login Failed - Invalid username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af2edad9-fd07-4b4f-be28-89f003aaef59</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ea1ee68-6b40-4803-b8aa-47c5115ee482</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>827bca3f-fc4e-47ef-9abe-b87b704643a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'invalid_username'</defaultValue>
+      <description></description>
+      <id>7ea1ee68-6b40-4803-b8aa-47c5115ee482</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>827bca3f-fc4e-47ef-9abe-b87b704643a1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can't login with locked out account</description>
+   <name>L02 - Login - Locked Out</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd8ece76-8942-41e9-b1d0-6aa9ec55ce9e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf782703-b1c3-4927-84da-eea4d2d020c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>babb3202-4998-4f3c-9eef-a0c194596ec1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'locked_out_user'</defaultValue>
+      <description></description>
+      <id>cf782703-b1c3-4927-84da-eea4d2d020c9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>babb3202-4998-4f3c-9eef-a0c194596ec1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
